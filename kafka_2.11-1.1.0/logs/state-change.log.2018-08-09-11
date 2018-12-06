@@ -1,0 +1,5 @@
+[2018-08-09 11:58:35,717] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2018-08-09 11:59:02,600] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2018-08-09 11:59:18,170] TRACE [Controller id=0 epoch=1] Received response {error_code=0} for request UPDATE_METADATA with correlation id 0 sent to broker xsislenovo04:9092 (id: 0 rack: null) (state.change.logger)
+[2018-08-09 11:59:59,898] TRACE [Controller id=0 epoch=1] Changed partition dispatcher.timeout-0 state from NonExistentPartition to NewPartition with assigned replicas 0 (state.change.logger)
+[2018-08-09 11:59:59,917] TRACE [Controller id=0 epoch=1] Changed state of replica 0 for partition dispatcher.timeout-0 from NonExistentReplica to NewReplica (state.change.logger)

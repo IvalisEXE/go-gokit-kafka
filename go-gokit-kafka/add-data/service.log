@@ -1,0 +1,31 @@
+2018/12/06 14:17:22 Failed to connect to 127.0.0.1:2181: dial tcp 127.0.0.1:2181: connect: connection refused
+2018/12/06 14:17:22 zk error zk: could not connect to a server
+2018/12/06 14:17:22 caller=main.go:26 error="failed to load configuration"
+2018/12/06 14:19:01 Connected to 127.0.0.1:2181
+2018/12/06 14:19:01 Authenticated: id=101192872560623617, timeout=10000
+2018/12/06 14:19:01 Re-submitting `0` credentials after reconnect
+2018/12/06 14:19:01 node missing /bbg.config/dispatch-logger.bluebird.id
+2018/12/06 14:19:01 &{dispatch-logger.bluebird.id /bbg.config [127.0.0.1:2181] map[discoveryhost:127.0.0.1:2181 serviceip:127.0.0.1 serviceport:8081 dbname:dispatch mqbrokers:127.0.0.1:9092,127.0.0.1:9093 topic:dispatch.log capath:cert/service/cacert.pem certpath:cert/service/server.pem tracerhost:127.0.0.1:9999 dbhost:127.0.0.1:3306 dbuid:root dbpwd:root keypath:cert/service/server.key]  <nil>}
+2018/12/06 14:19:01 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateConnecting err=null
+2018/12/06 14:19:01 caller=logwrapper.go:18 msg="Connected to 127.0.0.1:2181"
+2018/12/06 14:19:01 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateConnected err=null
+2018/12/06 14:19:02 caller=logwrapper.go:18 msg="Authenticated: id=101192872560623618, timeout=6000"
+2018/12/06 14:19:02 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateHasSession err=null
+2018/12/06 14:19:02 caller=logwrapper.go:18 msg="Re-submitting `0` credentials after reconnect"
+2018/12/06 14:19:02 caller=registrar.go:40 service=registry path=/service/dispatch-logger.bluebird.id data=127.0.0.1:8081 action=register
+2018/12/06 14:19:16 <-><-><-><-><-><->SAVING TO DATABASE DISPATCH 
+2018/12/06 15:08:11 Connected to 127.0.0.1:2181
+2018/12/06 15:08:11 Authenticated: id=101192872560623619, timeout=10000
+2018/12/06 15:08:11 Re-submitting `0` credentials after reconnect
+2018/12/06 15:08:11 node missing /test.config/add.data
+2018/12/06 15:08:11 &{add.data /test.config [127.0.0.1:2181] map[dbhost:127.0.0.1:3306 dbname:test certpath:cert/service/server.pem tracerhost:127.0.0.1:9999 serviceip:127.0.0.1 serviceport:8081 dbuid:root dbpwd:root mqbrokers:127.0.0.1:9092,127.0.0.1:9093 topic:test capath:cert/service/cacert.pem discoveryhost:127.0.0.1:2181 keypath:cert/service/server.key]  <nil>}
+2018/12/06 15:08:11 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateConnecting err=null
+2018/12/06 15:08:11 caller=logwrapper.go:18 msg="Connected to 127.0.0.1:2181"
+2018/12/06 15:08:11 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateConnected err=null
+2018/12/06 15:08:11 caller=logwrapper.go:18 msg="Authenticated: id=101192872560623620, timeout=6000"
+2018/12/06 15:08:11 caller=logwrapper.go:18 msg="Re-submitting `0` credentials after reconnect"
+2018/12/06 15:08:11 caller=client.go:133 eventtype=EventSession server=127.0.0.1:2181 state=StateHasSession err=null
+2018/12/06 15:08:11 caller=registrar.go:40 service=registry path=/service/add.data data=127.0.0.1:8081 action=register
+2018/12/06 15:08:48 <-><-><-><-><-><->SAVING TO DATABASE DISPATCH 
+2018/12/06 15:09:25 <-><-><-><-><-><->SAVING TO DATABASE DISPATCH 
+2018/12/06 15:09:47 caller=registrar.go:49 service=registry path=/service/add.data data=127.0.0.1:8081 action=deregister

@@ -1,0 +1,7 @@
+[2018-08-20 01:01:44,892] INFO [GroupMetadataManager brokerId=0] Group 2f6fb066-f711-49ed-8ed5-c3963a662c90 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:01:44,896] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 6 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:11:44,890] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:21:44,890] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:31:44,891] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:41:44,890] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-08-20 01:51:44,890] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

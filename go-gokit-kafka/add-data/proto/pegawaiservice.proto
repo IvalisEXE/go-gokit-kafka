@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package proto;
+
+
+message Pegawai {
+    int64 id   = 1;
+    string nama_depan = 2;
+    string nama_belakang = 3;
+    string alamat = 4;
+
+}
+
+message Response {
+    string message = 1;
+}
+
+service DataPegawaiService {
+    rpc AddDataPegawai(Pegawai) returns (Response) {}; 
+}

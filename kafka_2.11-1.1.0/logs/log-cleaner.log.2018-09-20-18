@@ -1,0 +1,4 @@
+[2018-09-20 18:21:05,719] INFO Shutting down the log cleaner. (kafka.log.LogCleaner)
+[2018-09-20 18:21:05,720] INFO [kafka-log-cleaner-thread-0]: Shutting down (kafka.log.LogCleaner)
+[2018-09-20 18:21:05,721] INFO [kafka-log-cleaner-thread-0]: Stopped (kafka.log.LogCleaner)
+[2018-09-20 18:21:05,721] INFO [kafka-log-cleaner-thread-0]: Shutdown completed (kafka.log.LogCleaner)

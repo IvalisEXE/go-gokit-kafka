@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package protobuf;
+
+
+message Pegawai {
+    int64 id   = 1;
+    string nama_depan = 2;
+    string nama_belakang = 3;
+    string alamat = 4;
+
+}
+
+message Response {
+    string message = 1;
+}
+ 

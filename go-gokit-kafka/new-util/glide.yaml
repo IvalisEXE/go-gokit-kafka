@@ -1,0 +1,24 @@
+package: git.bluebird.id/bluebird/util
+import:
+- package: git.bluebird.id/bluebird/secret
+  subpackages:
+  - client
+- package: git.bluebird.id/bluebird/tracer-go
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/go-kit/kit
+  subpackages:
+  - auth/jwt
+  - endpoint
+  - log
+  - sd
+  - sd/zk
+- package: github.com/grpc-ecosystem/go-grpc-middleware
+  subpackages:
+  - recovery
+- package: github.com/opentracing/opentracing-go
+- package: github.com/samuel/go-zookeeper
+  subpackages:
+  - zk
+- package: google.golang.org/grpc
+  subpackages:
+  - credentials

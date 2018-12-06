@@ -1,0 +1,8 @@
+[2018-05-24 14:08:43,022] INFO [GroupMetadataManager brokerId=0] Group dispatch.log transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:08:43,027] INFO [GroupMetadataManager brokerId=0] Group vehicle.event transitioned to Dead in generation 12 (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:08:43,029] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 15 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:18:43,014] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:28:43,015] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:38:43,015] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:48:43,014] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-24 14:58:43,015] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
